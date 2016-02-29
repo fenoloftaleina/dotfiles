@@ -28,6 +28,7 @@ Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-pathogen'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/vimshell.vim'
+Plugin 'junegunn/goyo.vim'
 
 " Plugin 'paredit.vim'
 let g:JSHintHighlightErrorLine = 0
