@@ -42,6 +42,7 @@ alias wow='git status'
 alias tag="ctags -R --exclude=.git --exclude=coverage --exclude=log *"
 
 alias glo="source ~/.githelpers && pretty_git_log"
+alias be='bundle exec'
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
