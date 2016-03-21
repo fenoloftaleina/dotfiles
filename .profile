@@ -44,3 +44,4 @@ alias tag="ctags -R --exclude=.git --exclude=coverage --exclude=log *"
 alias glo="source ~/.githelpers && pretty_git_log"
 alias be='bundle exec'
 
+[[ -f ~/.git-completion.bash ]] && . ~/.git-completion.bash
