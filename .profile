@@ -44,6 +44,3 @@ alias tag="ctags -R --exclude=.git --exclude=coverage --exclude=log *"
 alias glo="source ~/.githelpers && pretty_git_log"
 alias be='bundle exec'
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
