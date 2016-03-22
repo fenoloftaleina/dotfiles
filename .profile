@@ -1,3 +1,7 @@
+export PATH="/usr/local/bin:$PATH"
+export PATH="~/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 HISTFILESIZE=10000
 
 bind '"}":history-search-forward'
