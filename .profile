@@ -51,3 +51,5 @@ alias glo="source ~/.githelpers && pretty_git_log"
 alias be='bundle exec'
 
 [[ -f ~/.git-completion.bash ]] && . ~/.git-completion.bash
+
+alias gitclean='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
