@@ -146,6 +146,7 @@ nmap <leader>f :CtrlP<CR>
 nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
 nmap <leader>d :Bdelete<CR>
+nmap <leader>D :bd<CR>
 
 " nmap <leader>g <C-]>
 " nmap <leader>h <C-t>
