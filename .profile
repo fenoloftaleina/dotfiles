@@ -53,3 +53,4 @@ alias be='bundle exec'
 [[ -f ~/.git-completion.bash ]] && . ~/.git-completion.bash
 
 alias gitclean='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
+alias chrome-insecure='open -a Google\ Chrome --args --disable-web-security --allow-running-insecure-content'
