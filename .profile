@@ -54,3 +54,8 @@ alias be='bundle exec'
 
 alias gitclean='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
 alias chrome-insecure='open -a Google\ Chrome --args --disable-web-security --allow-running-insecure-content'
+
+alias prodb='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com'
+alias stagb='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com'
+alias prod='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c p"'
+alias stag='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c staging"'
