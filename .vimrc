@@ -21,7 +21,6 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'corntrace/bufexplorer'
 Plugin 'moll/vim-bbye'
-Plugin 'wookiehangover/jshint.vim'
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-classpath'
@@ -31,7 +30,6 @@ Plugin 'Shougo/vimshell.vim'
 Plugin 'junegunn/goyo.vim'
 
 " Plugin 'paredit.vim'
-let g:JSHintHighlightErrorLine = 0
 "Plugin 'AutoTag'
 
 "Plugin 'szarski/buftabs'
