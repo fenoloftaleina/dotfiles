@@ -24,6 +24,7 @@ alias mvim='/Applications/mvim -v'
 alias gvim='/Applications/mvim -v'
 alias v='vim'
 alias up='sh ~/up.sh'
+alias ngrok='/Applications/ngrok'
 
 alias grep="grep --color"
 alias a="ls -lrth"
