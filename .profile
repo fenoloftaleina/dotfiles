@@ -1,5 +1,5 @@
-export PATH="/usr/local/bin:$PATH"
-export PATH="~/.rbenv/bin:$PATH"
+export PATH="~/.rbenv/bin:/usr/local/bin:$PATH:~/go/bin"
+
 eval "$(rbenv init -)"
 
 export EDITOR='vim'
