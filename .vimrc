@@ -142,10 +142,6 @@ nmap <leader>x :Gblame<CR>
 nmap <leader>g :Ag<SPACE>
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-au! BufNewFile,BufRead *.god set ft=ruby
-au! BufNewFile,BufRead *.ex set ft=elixir
-au BufRead,BufNewFile * set colorcolumn=80
-
 imap <c-l> <space>=><space>
 imap <s-tab> <c-x><c-o>
 
@@ -154,6 +150,14 @@ nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
 nmap <leader>d :Bdelete<CR>
 nmap <leader>D :bd<CR>
+
+au! BufNewFile,BufRead *.god set ft=ruby
+au! BufNewFile,BufRead *.ex set ft=elixir
+au! BufNewFile,BufRead *.tsx set ft=typescript
+au! BufNewFile,BufRead *.ts set ft=typescript
+au! BufNewFile,BufRead *.boot set ft=clojure
+au BufRead,BufNewFile * set colorcolumn=80
+
 
 " nmap <leader>g <C-]>
 " nmap <leader>h <C-t>
