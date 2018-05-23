@@ -55,11 +55,6 @@ alias chrome-insecure='open -a Google\ Chrome --args --disable-web-security --al
 alias prettyjson='python -m json.tool'
 alias simplehttp='python -m SimpleHTTPServer'
 
-alias prodb='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com'
-alias stagb='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com'
-alias prod='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c p"'
-alias stag='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c staging"'
-
 alias prpr='hub pull-request'
 
 alias devstash="git stash save dev"
