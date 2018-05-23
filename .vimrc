@@ -22,12 +22,14 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'corntrace/bufexplorer'
 Plugin 'moll/vim-bbye'
 Plugin 'tpope/vim-fireplace'
-Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-classpath'
-Plugin 'tpope/vim-pathogen'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/vimshell.vim'
 Plugin 'junegunn/goyo.vim'
+" Plugin 'guns/vim-sexp'
+" Plugin 'bhurlow/vim-parinfer'
+
+" Plugin 'vim-scripts/paredit.vim'
 
 
 xnoremap p pgvy
