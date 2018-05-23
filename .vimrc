@@ -31,6 +31,8 @@ Plugin 'junegunn/goyo.vim'
 
 " Plugin 'vim-scripts/paredit.vim'
 
+Plugin 'reedes/vim-colors-pencil'
+
 
 xnoremap p pgvy
 
@@ -113,8 +115,10 @@ set t_Co=256
 let g:solarized_termcolors=16
 let &t_AB="\e[48;5;%dm"
 let &t_AF="\e[38;5;%dm"
-set background=dark
+" set background=dark
+set background=light
 colorscheme solarized
+" colorscheme pencil
 
 " highlight clear SignColumn
 " highlight VertSplit    ctermbg=236
