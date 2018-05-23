@@ -207,4 +207,9 @@ set completeopt-=preview
 Plugin 'rking/ag.vim'
 Plugin 'endwise.vim'
 
+" FYI, contents of /after/ftplugin/clojure.vim configuration:
+" " Better jumping for Clojure.
+" set iskeyword-=.
+" set iskeyword-=/
+
 call vundle#end()
