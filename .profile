@@ -19,9 +19,6 @@ export PROMPT_COMMAND='echo -ne "\033]0;`prompt_pwd`\007"'
 export CLICOLOR=1
 export TERM=xterm-256color
 
-alias vim='/Applications/mvim -v'
-alias mvim='/Applications/mvim -v'
-alias gvim='/Applications/mvim -v'
 alias v='vim'
 alias up='sh ~/up.sh'
 alias ngrok='/Applications/ngrok'
