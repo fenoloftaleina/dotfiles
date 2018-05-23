@@ -29,6 +29,9 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/vimshell.vim'
 Plugin 'junegunn/goyo.vim'
 
+
+xnoremap p pgvy
+
 " Plugin 'paredit.vim'
 "Plugin 'AutoTag'
 
