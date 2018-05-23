@@ -59,3 +59,10 @@ alias prodb='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com'
 alias stagb='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com'
 alias prod='ssh ubuntu@ec2-54-166-107-203.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c p"'
 alias stag='ssh ubuntu@ec2-54-234-20-71.compute-1.amazonaws.com -t "source ~/.profile && cd /opt/apps/cloudapp/current/ && bundle exec rails c staging"'
+
+alias prpr='hub pull-request'
+
+alias devstash="git stash save dev"
+alias devstashpop="git stash apply stash^{/dev}"
+alias gitfrom="git fetch && git rebase origin/master"
+alias wip="git commit -am wip"
