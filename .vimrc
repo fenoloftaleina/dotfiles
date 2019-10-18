@@ -7,10 +7,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'nono/vim-handlebars'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
-Plugin 'fenoloftaleina/vim-ruby'
 "Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ervandew/supertab'
@@ -25,13 +22,13 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/vimshell.vim'
-Plugin 'junegunn/goyo.vim'
+" Plugin 'junegunn/goyo.vim'
 " Plugin 'guns/vim-sexp'
 " Plugin 'bhurlow/vim-parinfer'
 
 " Plugin 'vim-scripts/paredit.vim'
 
-Plugin 'reedes/vim-colors-pencil'
+" Plugin 'reedes/vim-colors-pencil'
 
 
 xnoremap p pgvy
@@ -115,8 +112,8 @@ set t_Co=256
 let g:solarized_termcolors=16
 let &t_AB="\e[48;5;%dm"
 let &t_AF="\e[38;5;%dm"
-" set background=dark
-set background=light
+set background=dark
+" set background=light
 colorscheme solarized
 " colorscheme pencil
 
