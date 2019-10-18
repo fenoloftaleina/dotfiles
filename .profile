@@ -62,3 +62,5 @@ alias wip="git commit -am wip"
 
 # alias python=python3
 alias pip=pip3
+
+alias repl="clj -Sdeps '{:deps {org.clojure/spec.alpha {:mvn/version \"0.2.176\"} nrepl/nrepl {:mvn/version \"0.6.0\"}}}' -m nrepl.cmdline"
