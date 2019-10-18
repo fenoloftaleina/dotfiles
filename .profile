@@ -1,7 +1,4 @@
-export PATH="~/.rbenv/bin:/usr/local/bin:$PATH:~/go/bin"
-
-eval "$(rbenv init -)"
-
+export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export EDITOR='vim'
 
 HISTFILESIZE=10000
