@@ -58,3 +58,7 @@ alias devstash="git stash save dev"
 alias devstashpop="git stash apply stash^{/dev}"
 alias gitfrom="git fetch && git rebase origin/master"
 alias wip="git commit -am wip"
+
+
+# alias python=python3
+alias pip=pip3
