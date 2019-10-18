@@ -107,7 +107,11 @@ let ruby_space_errors = 1
 
 nnoremap <leader>h :set hlsearch!<CR>
 
-set term=xterm
+if !has('nvim')
+  set term=xterm
+  set ttymouse=xterm2
+endif
+
 set t_Co=256
 let g:solarized_termcolors=16
 let &t_AB="\e[48;5;%dm"
@@ -167,7 +171,6 @@ set showcmd
 
 set hidden
 set mouse=a
-set ttymouse=xterm2
 set mousemodel=extend
 
 nmap <leader>3 gcc

@@ -1,5 +1,5 @@
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
-export EDITOR='vim'
+export EDITOR='nvim'
 
 HISTFILESIZE=10000
 
@@ -16,7 +16,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;`prompt_pwd`\007"'
 export CLICOLOR=1
 export TERM=xterm-256color
 
-alias v='vim'
+alias v='nvim'
 alias up='sh ~/up.sh'
 alias ngrok='/Applications/ngrok'
 
