@@ -210,3 +210,5 @@ Plugin 'endwise.vim'
 " set iskeyword-=/
 
 call vundle#end()
+
+nmap <leader>- :w<CR>:!./run<CR>
