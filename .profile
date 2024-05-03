@@ -1,4 +1,5 @@
-export PATH=$(brew --prefix openvpn)/sbin:$PATH
+export PATH=~/.local/bin/:/Users/ja/.nvm/versions/node/v15.0.0/bin:/usr/local/opt/llvm/:/Users/ja/.bun/bin:/Users/ja/.krew/bin:/usr/local/sbin:/Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/bin:/usr/local/opt/openvpn/sbin:/usr/local/opt/llvm/bin:/Users/ja/.cabal/bin:/Users/ja/.ghcup/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/ja/.cargo/bin:/Users/ja/confluent/bin:/usr/local/opt/fzf/bin:$(brew --prefix openvpn)/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
 export EDITOR='nvim'
 
 HISTFILESIZE=10000
